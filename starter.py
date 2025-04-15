@@ -10,7 +10,7 @@ def uruchom_skrypty_z_folderu():
         print(f"Folder {sciezka_folderu} nie istnieje.")
         return
 
-    skrypty = ["ESPprog_erase.py", "connect.py", "config_cloud.py", "128.py"]  # Lista skryptów do uruchomienia
+    skrypty = ["ESPprog_erase.py", "connect.py", "config_cloud.py", "reset.py"]  # Lista skryptów do uruchomienia
 
     try:
         for skrypt in skrypty:
